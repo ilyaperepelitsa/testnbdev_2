@@ -27,17 +27,13 @@ Fill me in please! Don't forget code examples:
 <div class="input_area" markdown="1">
 
 ```python
-1+1
+say_hello("try this out, is it different?")
 ```
 
 </div>
 <div class="output_area" markdown="1">
 
-
-
-
-    2
-
+    Hello try this out, is it different?!
 
 
 </div>
@@ -47,7 +43,8 @@ Fill me in please! Don't forget code examples:
 <div class="input_area" markdown="1">
 
 ```python
-say_hello("try this out, is it different?")
+# from nbdev.showdoc import *
+# show_doc(say_hello("say different thing"))
 ```
 
 </div>
